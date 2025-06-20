@@ -84,7 +84,7 @@ const ArrowSlider: React.FC<ResponsiveJobSliderProps> = ({ data }) => {
         </button>
 
         {/* Dots */}
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
           {chunkedData.map((_, i) => (
             <button
               key={i}
